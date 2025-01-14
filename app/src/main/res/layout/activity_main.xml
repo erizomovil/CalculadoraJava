@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="160dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Número 1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:hint="Número 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Sumar" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Resultado: "
+        android:textSize="18sp"
+        android:gravity="center" />
+</LinearLayout>
